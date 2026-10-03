@@ -73,6 +73,7 @@
                     <img src="./images/collection-shop.svg" alt="Shop">
                 </button>
 
+
                 <button
                     class="button-animation hidden md:block py-[8px] px-[16px] bg-orange-900 rounded-[12px] text-[12px] font-JetBrains font-medium leading-[16px] tracking-[0.96px] text-redfouncy-900">
                     DROP ACCESS
@@ -83,56 +84,72 @@
                 </button>
             </div>
         </div>
-
+        <div id="new_button"></div>
     </header>
     <main>
         <div id="new_items"></div>
-        <!-- <div class="ml-[900px] mr-[10px] border-[1px] border-white h-[450px]" id="side_bar"></div> -->
         <section class="mx-[20px]">
-            <div class="">
-                <div class="flex justify-between items-center">
-                    <div class="my-[16px]">
-                        <span
-                            class="font-JetBrains font-bold text-[10px] leading-[14px] tracking-[1px] text-orange-600 ">//
-                            FLEET MATRIX</span>
-                        <h2
-                            class="font-grotesk font-bold text-[22px] leading-[26.4px] tracking-[-0.22px] text-white-500 ">
-                            SERIES SILHOUETTES</h2>
-                    </div>
-                    <div class="flex items-center gap-[4px] md:hidden">
-                        <span
-                            class=" font-JetBrains font-medium text-[10px] leading-[14px] tracking-[0.5px] text-orange-600">VIEW
-                            ALL</span>
-                        <img class="w-[16px] h-[16px]" src="./images/right-icon.svg" alt="right-icon">
-                    </div>
-                    <div class="hidden md:flex gap-[4px]">
-                        <button class="button-animation button-div">ALL DROPS (06)</button>
-                        <button class="button-animation button-div">CARBON RACING</button>
-                        <button class="button-animation button-div">TEMPO TRAINING</button>
-                    </div>
+            <div class="flex justify-between items-center">
+                <div class="my-[16px]">
+                    <span class="font-JetBrains font-bold text-[10px] leading-[14px] tracking-[1px] text-orange-600 ">//
+                        FLEET MATRIX</span>
+                    <h2 class="font-grotesk font-bold text-[22px] leading-[26.4px] tracking-[-0.22px] text-white-500 ">
+                        SERIES SILHOUETTES</h2>
                 </div>
-                <div class="flex justify-evenly">
-                    <!-- card 1 -->
-                    <!-- <div class="">
+                <div class="flex items-center gap-[4px] md:hidden">
+                    <span
+                        class=" font-JetBrains font-medium text-[10px] leading-[14px] tracking-[0.5px] text-orange-600">VIEW
+                        ALL</span>
+                    <img class="w-[16px] h-[16px]" src="./images/right-icon.svg" alt="right-icon">
+                </div>
+                <div class="hidden md:flex gap-[4px]">
+                    <button class="button-animation button-div">ALL DROPS (06)</button>
+                    <button class="button-animation button-div">CARBON RACING</button>
+                    <button class="button-animation button-div">TEMPO TRAINING</button>
+                </div>
+            </div>
+            <div class="space-y-[24px] md:flex md:flex-row-3 md:gap-[24px]">
+
+                <!-- card 1 -->
+                <div class="flex justify-evenly gap-[23px]">
+                    <div class="bg-[#121C2A] w-fit md:w-[391px] p-[24px] ">
                         <div class="">
-                            <div class="flex justify-between mb-[3.5px]">
+                            <div class="flex justify-between mb-[3.5px] ">
                                 <p
-                                    class="absolute top-[180px] left-[28px] md:relative md:left-0 md:right-0 md:z-[1] z-[999] bg-orange-900 text-redfouncy-900 font-JetBrains font-bold text-[9px] leading-[24px] tracking-[0.9px] md:text-[10px] md:leading-[14px] md:tracking-[1px]">
+                                    class="bg-orange-900 text-redfouncy-900 font-JetBrains font-bold text-[9px] leading-[24px] tracking-[0.9px] ">
                                     BEST SELLER
                                 </p>
                                 <span
-                                    class="hidden md:flex text-[22px] font-grotesk font-bold leading-[26.4px] tracking-[-0.22px] text-white-500">$195</span>
+                                    class="hidden md:flex text-[22px] font-grotesk font-bold leading-[26.4px] tracking-[-0.22px] text-white-500">
+                                    $195
+                                </span>
+                                <span
+                                    class="flex md:hidden font-grotesk font-bold text-[10px] leading-[14px] tracking-[1px] text-white-500">
+                                    SPEC // 01
+                                </span>
                             </div>
-                            <div class="relative">
-                                <img src="./images/items-card1.svg" alt="">
-                                <div class="">
+                            <div class="md:w-fit md:relative">
+                                <div
+                                    class="bg-[#050F1C] items-center flex justify-center p-[16px] md:p-[1px] md:w-full">
+                                    <img src="./images/items-card1.svg" alt="">
+                                </div>
+                                <div
+                                    class="hidden md:flex md:absolute top-[215px] left-[8px] text-blue-700 font-JetBrains font-medium text-[10px] leading-[14px] tracking-[1px] bg-black-900/80 py-[2px] px-[4px] w-fit">
                                     <p class="">NITRO DUAL-WAVE</p>
                                 </div>
                             </div>
-                            <div class="">
-                                <h2 class="">
-                                    AETHER-X NITRO</h2>
-                                <p class="">The
+                            <div class="my-[3.1px] ">
+                                <div class="flex justify-between py-[4px]">
+                                    <h2
+                                        class="font-bold font-grotesk text-[22px] leading-[26.4px] tracking-[-0.22px] text-white-500">
+                                        AETHER-X NITRO</h2>
+                                    <span
+                                        class="md:hidden text-[22px] font-grotesk font-bold leading-[26.4px] pr-[2px] tracking-[-0.22px] text-white-500">
+                                        $195
+                                    </span>
+                                </div>
+
+                                <p class="font-jakarta text-[14px] leading-[21.6px] text-orange-600 py-[3.1px]">The
                                     flagship
                                     marathon weapon. Nitrogen foam
                                     wrapped around an active responsive carbon
@@ -140,65 +157,192 @@
                                 </p>
 
                                 <div class="">
-                                    <span class="">SELECT
+                                    <span
+                                        class="font-JetBrains font-medium text-[10px] leading-[14px] text-[#E5BEB2] pt-[12px] pb-[6px] ">SELECT
                                         SIZING (US MEN)</span>
-                                    <div class="">
-                                        <button class="button-click">8.0</button>
+                                    <div class=" space-y-[6px]">
+                                        <button class="button-click w-[69.5px]">8.0</button>
 
-                                        <button class="button-click">9.0</button>
+                                        <button class="button-click w-[69.5px]">9.0</button>
 
-                                        <button class="button-click">10.0</button>
+                                        <button class="button-click w-[69.5px]">10.0</button>
 
-                                        <button class="button-click">11.0</button>
+                                        <button class="button-click w-[69.5px]">11.0</button>
                                     </div>
-                                    <div>
-                                        <button class="">
+                                    <div class="">
+                                        <button id="add"
+                                            class="flex gap-[4px] bg-orange-900 py-[12px] w-full justify-center my-[24px]">
                                             <img src="/images/icon-flash.svg" alt="icon-flash">
-                                            <span class="">DEPLOY
-                                                SILHOUETTE</span>
+                                            <span id="add_items" class="">
+                                                ADD TO CART • $195
+                                            </span>
+
                                         </button>
+                                        <p id="paragraph"></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="flex justify-evenly gap-[23px]">
+
+                    <div class="bg-[#121C2A] w-fit md:w-[391px] p-[24px] ">
+                        <div class="">
+                            <div class="flex justify-between mb-[3.5px] ">
+                                <p
+                                    class="bg-orange-900 text-redfouncy-900 font-JetBrains font-bold text-[9px] leading-[24px] tracking-[0.9px] ">
+                                    BEST SELLER
+                                </p>
+                                <span
+                                    class="hidden md:flex text-[22px] font-grotesk font-bold leading-[26.4px] tracking-[-0.22px] text-white-500">
+                                    $195
+                                </span>
+                                <span
+                                    class="flex md:hidden font-grotesk font-bold text-[10px] leading-[14px] tracking-[1px] text-white-500">
+                                    SPEC // 01
+                                </span>
+                            </div>
+                            <div class="md:w-fit md:relative">
+                                <div
+                                    class="bg-[#050F1C] items-center flex justify-center p-[16px] md:p-[1px] md:w-full">
+                                    <img src="./images/items-card1.svg" alt="">
+                                </div>
+                                <div
+                                    class="hidden md:flex md:absolute top-[215px] left-[8px] text-blue-700 font-JetBrains font-medium text-[10px] leading-[14px] tracking-[1px] bg-black-900/80 py-[2px] px-[4px] w-fit">
+                                    <p class="">NITRO DUAL-WAVE</p>
+                                </div>
+                            </div>
+                            <div class="my-[3.1px] ">
+                                <div class="flex justify-between py-[4px]">
+                                    <h2
+                                        class="font-bold font-grotesk text-[22px] leading-[26.4px] tracking-[-0.22px] text-white-500">
+                                        AETHER-X NITRO</h2>
+                                    <span
+                                        class="md:hidden text-[22px] font-grotesk font-bold leading-[26.4px] pr-[2px] tracking-[-0.22px] text-white-500">
+                                        $195
+                                    </span>
+                                </div>
+
+                                <p class="font-jakarta text-[14px] leading-[21.6px] text-orange-600 py-[3.1px]">The
+                                    flagship
+                                    marathon weapon. Nitrogen foam
+                                    wrapped around an active responsive carbon
+                                    rocker.
+                                </p>
+
+                                <div class="">
+                                    <span
+                                        class="font-JetBrains font-medium text-[10px] leading-[14px] text-[#E5BEB2] pt-[12px] pb-[6px] ">SELECT
+                                        SIZING (US MEN)</span>
+                                    <div class=" space-y-[6px]">
+                                        <button class="button-click w-[69.5px]">8.0</button>
+
+                                        <button class="button-click w-[69.5px]">9.0</button>
+
+                                        <button class="button-click w-[69.5px]">10.0</button>
+
+                                        <button class="button-click w-[69.5px]">11.0</button>
+                                    </div>
+                                    <div class="">
+                                        <button id="add_2"
+                                            class="flex gap-[4px] bg-orange-900 py-[12px] w-full justify-center my-[24px]">
+                                            <img src="/images/icon-flash.svg" alt="icon-flash">
+                                            <span id="add_items" class="">
+                                                ADD TO CART • $195
+                                            </span>
+
+                                        </button>
+                                        <p id="paragraph"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- card 3 -->
+                <div class="flex justify-evenly gap-[23px]">
+
+                    <div class="bg-[#121C2A] w-fit md:w-[391px] p-[24px] ">
+
+                        <div class="flex justify-between mb-[3.5px] ">
+                            <p
+                                class="bg-orange-900 text-redfouncy-900 font-JetBrains font-bold text-[9px] leading-[24px] tracking-[0.9px] ">
+                                BEST SELLER
+                            </p>
+                            <span
+                                class="hidden md:flex text-[22px] font-grotesk font-bold leading-[26.4px] tracking-[-0.22px] text-white-500">
+                                $195
+                            </span>
+                            <span
+                                class="flex md:hidden font-grotesk font-bold text-[10px] leading-[14px] tracking-[1px] text-white-500">
+                                SPEC // 01
+                            </span>
+                        </div>
+                        <div class="md:w-fit md:relative">
+                            <div class="bg-[#050F1C] items-center flex justify-center p-[16px] md:p-[1px] md:w-full">
+                                <img src="./images/" alt="">
+                            </div>
+                            <div
+                                class="hidden md:flex md:absolute top-[215px] left-[8px] text-blue-700 font-JetBrains font-medium text-[10px] leading-[14px] tracking-[1px] bg-black-900/80 py-[2px] px-[4px] w-fit">
+                                <p class="">NITRO DUAL-WAVE</p>
+                            </div>
+                        </div>
+                        <div class="my-[3.1px] ">
+                            <div class="flex justify-between py-[4px]">
+                                <h2
+                                    class="font-bold font-grotesk text-[22px] leading-[26.4px] tracking-[-0.22px] text-white-500">
+                                    AETHER-X NITRO</h2>
+                                <span
+                                    class="md:hidden text-[22px] font-grotesk font-bold leading-[26.4px] pr-[2px] tracking-[-0.22px] text-white-500">
+                                    $195
+                                </span>
+                            </div>
+
+                            <p class="font-jakarta text-[14px] leading-[21.6px] text-orange-600 py-[3.1px]">The
+                                flagship
+                                marathon weapon. Nitrogen foam
+                                wrapped around an active responsive carbon
+                                rocker.
+                            </p>
+
+                            <div class="">
+                                <span
+                                    class="font-JetBrains font-medium text-[10px] leading-[14px] text-[#E5BEB2] pt-[12px] pb-[6px] ">SELECT
+                                    SIZING (US MEN)</span>
+                                <div class=" space-y-[6px]">
+                                    <button class="button-click w-[69.5px]">8.0</button>
+
+                                    <button class="button-click w-[69.5px]">9.0</button>
+
+                                    <button class="button-click w-[69.5px]">10.0</button>
+
+                                    <button class="button-click w-[69.5px]">11.0</button>
+                                </div>
+                                <div class="">
+                                    <button id="add_3"
+                                        class="flex gap-[4px] bg-orange-900 py-[12px] w-full justify-center my-[24px]">
+                                        <img src="/images/icon-flash.svg" alt="icon-flash">
+                                        <span id="add_items" class="">
+                                            ADD TO CART • $195
+                                        </span>
+
+                                    </button>
+                                    <p id="paragraph"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
 
                 </div>
             </div>
         </section>
     </main>
 </body>
-<script>
-    // new input search html
-    let search = document.getElementById("search");
-    let new_items = document.getElementById("new_items");
-    search.addEventListener("click", () => {
-        if (new_items.children.length < 1) {
-            let input = document.createElement("input")
-            input.type = "text";
-            input.placeholder = "Search...";
-            input.style.border = "2px solid white";
-            input.style.padding = "5px 15px";
-            input.style.margin = "0px 22px";
-            input.style.color = "black";
-            input.style.backgroundColor = "white";
-            input.style.borderRadius = "10px";
-            new_items.appendChild(input);
-        }
-        else {
-            new_items.innerHTML = "";
-        }
+<script src="./script.js"></script>
 
-    });
-    // let shop=document.getElementById("shop");
-    // let side_bar=document.getElementById("side_bar");
-    let span_value = document.getElementById("span_value");
-    let add = document.getElementById("add");
-    let count = 0;
-    add.addEventListener("click", () => {
-        count += 1;
-        span_value.innerHTML = count;
-    })
-</script>
 
 </html>
