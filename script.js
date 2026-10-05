@@ -24,7 +24,6 @@ shop.addEventListener("click", () => {
     }
 })
 
-
 // new input search html
 let search = document.getElementById("search");
 let new_items = document.getElementById("new_items");
@@ -44,8 +43,9 @@ search.addEventListener("click", () => {
     else {
         new_items.innerHTML = "";
     }
-
 });
+
+//  Add item && text of succes 
 let side_bar = document.getElementById("side_bar");
 let span_value = document.getElementById("span_value");
 
