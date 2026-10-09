@@ -119,7 +119,6 @@ search.addEventListener("click", () => {
         new_items.innerHTML = "";
     }
 });
-
 //  Add item && text of succes
 ["add", "add_2", "add_3"].forEach((id) => {
     let add = document.getElementById(id);
@@ -139,7 +138,7 @@ search.addEventListener("click", () => {
         }
         saveCart();
         if (new_button.contains(mini_card)) renderMiniCard();
-
+        // style par tag
         let par = add.nextElementSibling;
         par.style.display = "";
         par.textContent = "Item added successfully!";
